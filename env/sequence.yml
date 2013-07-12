@@ -92,6 +92,9 @@ engines:
         template_work: null
         template_work_area: null
     debug_logging: false
+    linux_additional_syspath: ''
+    mac_additional_syspath: ''
+    windows_additional_syspath: C:\Python26\Lib\site-packages
     location: {name: tk-houdini, type: app_store, version: v0.1.4}
     menu_favourites:
     - {app_instance: tk-multi-workfiles, name: Shotgun File Manager...}
@@ -103,6 +106,7 @@ engines:
       tk-shotgun-launch3dsmax: '@launch_3dsmax'
       tk-shotgun-launchmaya: '@launch_maya'
       tk-shotgun-launchnuke: '@launch_nuke'
+      tk-shotgun-launchhoudini: '@launch_houdini'
       tk-shotgun-launchhiero: '@launch_hiero'
       
     debug_logging: false

@@ -256,6 +256,16 @@ engines:
         store_on_disk: true
         upload_to_shotgun: true
         version_number_padding: 3
+      tk-multi-reviewsubmission-quickdailies:
+        location: {name: tk-multi-reviewsubmission, path: /shotgun/src/sgtk/tk-multi-reviewsubmission, type: dev, version: v0.1.5}
+        movie_height: 768
+        movie_path_template: asset_quicktime_quick
+        movie_width: 1024
+        new_version_status: rev
+        slate_logo: icons/review_submit_logo.png
+        store_on_disk: true
+        upload_to_shotgun: true
+        version_number_padding: 3
       tk-multi-screeningroom: '@launch_screeningroom'
       tk-multi-snapshot:
         hook_copy_file: default
@@ -283,11 +293,12 @@ engines:
       tk-nuke-quickdailies:
         current_scene_template: nuke_asset_work
         height: 768
-        location: {name: tk-nuke-quickdailies, type: app_store, version: v0.1.8}
+        location: {name: tk-nuke-quickdailies, type: dev, path: /shotgun/src/sgtk/tk-nuke-quickdailies, version: v0.1.8}
         movie_template: asset_quicktime_quick
         post_hooks: [snapshot_history_post_quickdaily]
         sg_version_name_template: nuke_quick_asset_version_name
         width: 1024
+        reviewsubmission_app_name: tk-multi-reviewsubmission-quickdailies
       tk-nuke-writenode:
         location: {name: tk-nuke-writenode, type: app_store, version: v0.1.6}
         template_script_work: nuke_asset_work

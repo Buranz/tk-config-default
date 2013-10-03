@@ -416,3 +416,5 @@ strings:
 
     nuke_asset_version_name: "{Asset}_{name}_{channel}_v{version}.{iteration}"
     nuke_quick_asset_version_name: "{Asset}_{name}_quick_{iteration}"
+
+    quickdailies_tmp_render_basename: "thumb_seq.{SEQ}.png"

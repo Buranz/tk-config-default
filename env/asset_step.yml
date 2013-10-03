@@ -299,6 +299,7 @@ engines:
         sg_version_name_template: nuke_quick_asset_version_name
         width: 1024
         reviewsubmission_app_name: tk-multi-reviewsubmission-quickdailies
+        tmp_render_basename: quickdailies_tmp_render_basename
       tk-nuke-writenode:
         location: {name: tk-nuke-writenode, type: app_store, version: v0.1.6}
         template_script_work: nuke_asset_work
